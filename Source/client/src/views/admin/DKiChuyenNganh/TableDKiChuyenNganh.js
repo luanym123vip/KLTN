@@ -71,7 +71,8 @@ const data = [
 
     {
         madkcn: 'CN1',
-        nienkhoa: '2019',
+        ten:'Đăng ký chuyên ngành đợt 1',
+        nienkhoa: '2019-2020',
         khoahoc: 'K19',
         tgbd: '01/02/2019',
         tgkt: '14/03/2019',
@@ -79,7 +80,8 @@ const data = [
     },
     {
         madkcn: 'CN2',
-        nienkhoa: '2019',
+        ten:'Đăng ký chuyên ngành đợt 2',
+        nienkhoa: '2019-2020',
         khoahoc: 'K19',
         tgbd: '01/02/2019',
         tgkt: '14/03/2019',
@@ -87,7 +89,8 @@ const data = [
     },
     {
         madkcn: 'CN3',
-        nienkhoa: '2019',
+        ten:'Đăng ký chuyên ngành đợt 3',
+        nienkhoa: '2019-2020',
         khoahoc: 'K19',
         tgbd: '01/02/2019',
         tgkt: '14/03/2019',
@@ -95,7 +98,8 @@ const data = [
     },
     {
         madkcn: 'CN4',
-        nienkhoa: '2019',
+        ten:'Đăng ký chuyên ngành đợt 4',
+        nienkhoa: '2019-2020',
         khoahoc: 'K19',
         tgbd: '01/02/2019',
         tgkt: '14/03/2019',
@@ -103,7 +107,8 @@ const data = [
     },
     {
         madkcn: 'CN5',
-        nienkhoa: '2019',
+        ten:'Đăng ký chuyên ngành đợt 5',
+        nienkhoa: '2019-2020',
         khoahoc: 'K19',
         tgbd: '01/02/2019',
         tgkt: '14/03/2019',
@@ -111,7 +116,8 @@ const data = [
     },
     {
         madkcn: 'CN6',
-        nienkhoa: '2019',
+        ten:'Đăng ký chuyên ngành đợt 6',
+        nienkhoa: '2019-2020',
         khoahoc: 'K19',
         tgbd: '01/02/2019',
         tgkt: '14/03/2019',
@@ -119,7 +125,8 @@ const data = [
     },
     {
         madkcn: 'CN7',
-        nienkhoa: '2019',
+        ten:'Đăng ký chuyên ngành đợt 7',
+        nienkhoa: '2019-2020',
         khoahoc: 'K19',
         tgbd: '01/02/2019',
         tgkt: '14/03/2019',
@@ -127,7 +134,8 @@ const data = [
     },
     {
         madkcn: 'CN8',
-        nienkhoa: '2019',
+        ten:'Đăng ký chuyên ngành đợt 8',
+        nienkhoa: '2019-2020',
         khoahoc: 'K19',
         tgbd: '01/02/2019',
         tgkt: '14/03/2019',
@@ -135,31 +143,8 @@ const data = [
     },
     {
         madkcn: 'CN9',
-        nienkhoa: '2019',
-        khoahoc: 'K19',
-        tgbd: '01/02/2019',
-        tgkt: '14/03/2019',
-        trangthai: 1,
-    },
-    {
-        madkcn: 'CN10',
-        nienkhoa: '2019',
-        khoahoc: 'K19',
-        tgbd: '01/02/2019',
-        tgkt: '14/03/2019',
-        trangthai: 1,
-    },
-    {
-        madkcn: 'CN11',
-        nienkhoa: '2019',
-        khoahoc: 'K19',
-        tgbd: '01/02/2019',
-        tgkt: '14/03/2019',
-        trangthai: 1,
-    },
-    {
-        madkcn: 'CN12',
-        nienkhoa: '2019',
+        ten:'Đăng ký chuyên ngành đợt 9',
+        nienkhoa: '2019-2020',
         khoahoc: 'K19',
         tgbd: '01/02/2019',
         tgkt: '14/03/2019',
@@ -198,6 +183,13 @@ const TableDKiChuyenNganh = () => {
 
             },
             {
+                accessorKey: 'ten',
+                header: 'Tên đợt đăng ký',
+                size: 200,
+                enableEditing: false,
+
+            },
+            {
                 accessorKey: 'nienkhoa',
                 header: 'Niên khóa',
                 size: 100,
@@ -214,7 +206,7 @@ const TableDKiChuyenNganh = () => {
 
                 accessorKey: 'tgbd',
                 header: 'Bắt đầu',
-                size: 150,
+                size: 100,
                 enableEditing: false,
 
 
@@ -223,7 +215,7 @@ const TableDKiChuyenNganh = () => {
                 type: 'date',
                 accessorKey: 'tgkt',
                 header: 'Kết thúc',
-                size: 150,
+                size: 100,
                 enableEditing: false,
             },
         ]

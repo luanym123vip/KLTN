@@ -77,8 +77,9 @@ const TableDSDeTai = (props) => {
                 enableEditing: false,
             },
             {
-                header: 'Trạng thái',
+               
                 accessorKey: 'trangthai',
+                header: 'Trạng thái',
                 size: 100,
                 enableEditing: false,
             },
@@ -96,15 +97,12 @@ const TableDSDeTai = (props) => {
         enableColumnActions: true,
         enableRowActions: true,
         positionActionsColumn: 'last',
-
+        
         renderRowActions: ({ row, table }) => (
             <Box sx={{ display: 'flex', gap: '0.3rem' }}>
                 <IconButton >
                     <Visibility fontSize="small" />
                 </IconButton>
-
-
-
                 <IconButton  >
                     <Edit fontSize="small" />
                 </IconButton>
