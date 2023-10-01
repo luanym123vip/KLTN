@@ -19,25 +19,25 @@ const TableDSDeTai = (props) => {
             ten: 'Nghiên cứu và xây dựng một hệ thống khuyến nghị.',
             giangvienhuongdan: 'Phan Tấn Quốc',
             donvi: 'Khoa CNTT',
-            trangthai: 1,
+            trangthai: "Done",
         },
         {
             ten: 'Phần mềm quản lý ghi chú cá nhân với tính năng nhận dạng tiếng nói',
             giangvienhuongdan: 'Nguyễn Tuấn Đăng',
             donvi: 'Khoa CNTT',
-            trangthai: 1,
+            trangthai: "Done",
         },
         {
             ten: 'Xây dựng website hỗ trợ đào tạo khoa CNTT.',
             giangvienhuongdan: 'Nguyễn Thanh Sang',
             donvi: 'Khoa CNTT',
-            trangthai: 1,
+            trangthai: "None",
         },
         {
             ten: 'Xây dựng trò chơi hỗ trợ làm quen với tiếng Anh',
             giangvienhuongdan: 'Phạm Thi Vương',
             donvi: 'Viện KHDL - TTNT',
-            trangthai: 1,
+            trangthai: "None",
         },
     ]
     const { listData } = props;
@@ -106,8 +106,6 @@ const TableDSDeTai = (props) => {
                 <IconButton  >
                     <Edit fontSize="small" />
                 </IconButton>
-
-
                 <IconButton onClick={() => console.log(row.original.name)}>
                     <Delete fontSize="small" sx={{ color: 'red' }} />
                 </IconButton>
