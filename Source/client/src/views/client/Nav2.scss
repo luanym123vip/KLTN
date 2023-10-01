@@ -1,0 +1,29 @@
+.nav-2 {
+  font-family: 'Montserrat';
+  font-weight: 600;
+
+
+}
+
+.navbar-nav {
+  &:first-child {
+    margin-left: 100px;
+  }
+
+  .nav-test {
+    color: white;
+  }
+
+  .nav-item {
+    padding: 15px 0;
+  }
+
+  .container-catalog {
+    height          : 35px;
+    width           : 150px;
+    background-color: red;
+    padding         : 5px 10px;
+    border-left     : 1px solid white;
+
+  }
+}

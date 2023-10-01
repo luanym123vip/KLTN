@@ -1,0 +1,29 @@
+.container-catalog {
+    display        : flex;
+    justify-content: center;
+
+    &:first-child {
+        margin-left: 10%;
+    }
+
+    .card {
+        width           : 18rem;
+        background-color: #202C45;
+        border-radius   : 5px;
+
+        .card-body {
+            h5 {
+                margin-top : 10px;
+                font-family: 'Montserrat';
+                font-size  : 15px;
+                font-weight: 600;
+                color      : white;
+            }
+        }
+    }
+
+    .card2 {
+        width      : 18rem;
+        margin-left: 3%;
+    }
+}
